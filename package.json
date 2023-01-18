@@ -4,7 +4,7 @@
   "description": "A portfolio of mine with Tailwind CSS, configured with PostCSS. You only need to install NPM",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./src/tailwind.css -o ./layouts/css/style.css --watch --verbose",
+    "build": "postcss ./src/tailwind.css -o ./layouts/css/style.css --verbose",
     "prod": "cross-env NODE_ENV=production postcss ./src/tailwind.css -o ./layouts/css/style.css"
   },
   "keywords": [],
